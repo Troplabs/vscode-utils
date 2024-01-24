@@ -12,8 +12,8 @@ devDependencies:
     specifier: 10.0.6
     version: 10.0.6
   '@types/node':
-    specifier: ^18.x
-    version: 18.19.9
+    specifier: ^20.x
+    version: 20.11.6
   '@types/vscode':
     specifier: 1.85.0
     version: 1.85.0
@@ -358,8 +358,8 @@ packages:
     resolution: {integrity: sha512-dJvrYWxP/UcXm36Qn36fxhUKu8A/xMRXVT2cliFF1Z7UA9liG5Psj3ezNSZw+5puH2czDXRLcXQxf8JbJt0ejg==}
     dev: true
 
-  /@types/node@18.19.9:
-    resolution: {integrity: sha512-oZFKlC8l5YtzGQNT4zC2PiSSKzQVZ8bAwwd+EYdPLtyk0nSEq6O16SkK+rkkT2eflDAbormJgEF3QnH3oDrTSw==}
+  /@types/node@20.11.6:
+    resolution: {integrity: sha512-+EOokTnksGVgip2PbYbr3xnR7kZigh4LbybAfBAw5BpnQ+FqBYUsvCEjYd70IXKlbohQ64mzEYmMtlWUY8q//Q==}
     dependencies:
       undici-types: 5.26.5
     dev: true
