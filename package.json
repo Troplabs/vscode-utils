@@ -1,0 +1,71 @@
+{
+  "name": "utils",
+  "displayName": "Troplabs Utils",
+  "description": "Utilities for developers",
+  "publisher": "Troplabs",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/troplabs/vscode-utils.git"
+  },
+  "author": "Nilesh Mali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/troplabs/vscode-utils/issues"
+  },
+  "homepage": "https://github.com/troplabs/vscode-utils#readme",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "main": "./out/main.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "utils.base64Encode",
+        "title": "Encode to Base64"
+      },
+      {
+        "command": "utils.base64Decode",
+        "title": "Decode from Base64"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "utils.base64Encode",
+        "key": "ctrl+e ctrl+e",
+        "mac": "cmd+e cmd+e",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "utils.base64Decode",
+        "key": "ctrl+e ctrl+d",
+        "mac": "cmd+e cmd+d",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "vsce": "vsce",
+    "vscode:prepublish": "pnpm run esbuild-base --minify",
+    "esbuild-base": "esbuild ./src/extension.ts --bundle --outfile=out/main.js --external:vscode --format=cjs --platform=node",
+    "esbuild": "pnpm run esbuild-base --sourcemap",
+    "esbuild-watch": "pnpm run esbuild-base --sourcemap --watch",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "pnpm run compile-tests && pnpm run esbuild && pnpm run fmt",
+    "test": "vscode-test",
+    "fmt": "biome check ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.5.3",
+    "@types/mocha": "10.0.6",
+    "@types/node": "^18.x",
+    "@types/vscode": "1.85.0",
+    "@vscode/test-cli": "0.0.4",
+    "@vscode/test-electron": "2.3.8",
+    "@vscode/vsce": "2.22.0",
+    "esbuild": "0.19.12",
+    "typescript": "5.3.3"
+  }
+}
