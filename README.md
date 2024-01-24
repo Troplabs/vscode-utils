@@ -1,4 +1,6 @@
-# vscode-utils
+# Visual Studio Code Developer Experience Utilities
+
+![Visual Studio Marketplace Version (including pre-releases)](https://img.shields.io/visual-studio-marketplace/v/troplabs.vscode-dx-utils?include_prereleases&style=flat&logo=visual-studio-code&logoColor=0098FF&label=Visual%20Studio%20Marketplace&labelColor=000&color=374151&link=https%3A%2F%2Fmarketplace.visualstudio.com%2Fitems%3FitemName%3Dtroplabs.vscode-dx-utils)
 
 Utilities for Visual Studio Code
 
