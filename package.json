@@ -2,8 +2,9 @@
   "name": "utils",
   "displayName": "Troplabs Utils",
   "description": "Utilities for developers",
-  "publisher": "Troplabs",
+  "publisher": "troplabs",
   "version": "0.0.1",
+  "preview": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/troplabs/vscode-utils.git"
@@ -14,11 +15,13 @@
     "url": "https://github.com/troplabs/vscode-utils/issues"
   },
   "homepage": "https://github.com/troplabs/vscode-utils#readme",
+  "main": "./out/main.js",
   "engines": {
     "vscode": "^1.85.0"
   },
   "categories": ["Other"],
-  "main": "./out/main.js",
+  "pricing": "Free",
+  "icon": "icon.png",
   "contributes": {
     "commands": [
       {
