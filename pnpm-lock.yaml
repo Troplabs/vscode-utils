@@ -21,8 +21,8 @@ devDependencies:
     specifier: 0.0.4
     version: 0.0.4
   '@vscode/test-electron':
-    specifier: 2.3.8
-    version: 2.3.8
+    specifier: 2.3.9
+    version: 2.3.9
   '@vscode/vsce':
     specifier: 2.22.0
     version: 2.22.0
@@ -381,8 +381,8 @@ packages:
       yargs: 17.7.2
     dev: true
 
-  /@vscode/test-electron@2.3.8:
-    resolution: {integrity: sha512-b4aZZsBKtMGdDljAsOPObnAi7+VWIaYl3ylCz1jTs+oV6BZ4TNHcVNC3xUn0azPeszBmwSBDQYfFESIaUQnrOg==}
+  /@vscode/test-electron@2.3.9:
+    resolution: {integrity: sha512-z3eiChaCQXMqBnk2aHHSEkobmC2VRalFQN0ApOAtydL172zXGxTwGrRtviT5HnUB+Q+G3vtEYFtuQkYqBzYgMA==}
     engines: {node: '>=16'}
     dependencies:
       http-proxy-agent: 4.0.1
