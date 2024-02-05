@@ -3,7 +3,7 @@
   "displayName": "DX Utils",
   "description": "Utilities for developers",
   "publisher": "troplabs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "preview": true,
   "repository": {
     "type": "git",
@@ -17,9 +17,11 @@
   "homepage": "https://github.com/troplabs/vscode-utils#readme",
   "main": "./out/main.js",
   "engines": {
-    "vscode": "^1.85.0"
+    "vscode": "^1.86.0"
   },
-  "categories": ["Other"],
+  "categories": [
+    "Other"
+  ],
   "pricing": "Free",
   "icon": "icon.png",
   "contributes": {
@@ -73,7 +75,7 @@
     "@biomejs/biome": "1.5.3",
     "@types/mocha": "10.0.6",
     "@types/node": "^18.x",
-    "@types/vscode": "1.85.0",
+    "@types/vscode": "1.86.0",
     "@vscode/test-cli": "0.0.4",
     "@vscode/test-electron": "2.3.9",
     "@vscode/vsce": "2.23.0",
