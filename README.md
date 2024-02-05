@@ -7,12 +7,16 @@ Utilities for Visual Studio Code
 ## Features
 
 - Base64 encode/decode
+- URI encode/decode
 
 ## Commands
 
 - Base64 encode/decode
   - `Base64 encode`: Encode selected text to Base64
   - `Base64 decode`: Decode selected text from Base64
+- URI encode/decode
+  - `URI encode`: Encode selected text to URI
+  - `URI decode`: Decode selected text from URI
 
 ## Keybindings
 

@@ -28,8 +28,42 @@ export function activate(context: vscode.ExtensionContext) {
     base64Decode(e, d, sel)
   })
 
+  const cmdEncodeURIComponent = vscode.commands.registerCommand('utils.encodeURIComponent', () => {
+    const e = Window.activeTextEditor
+    const d = e?.document
+    const sel = e?.selections
+    uriEncodeComponent(e, d, sel)
+  })
+
+  const cmdDecodeURIComponent = vscode.commands.registerCommand('utils.decodeURIComponent', () => {
+    const e = Window.activeTextEditor
+    const d = e?.document
+    const sel = e?.selections
+    uriDecodeComponent(e, d, sel)
+  })
+
   context.subscriptions.push(encode)
   context.subscriptions.push(decode)
+  context.subscriptions.push(cmdEncodeURIComponent)
+  context.subscriptions.push(cmdDecodeURIComponent)
+}
+
+function uriEncodeComponent(e?: TextEditor, d?: TextDocument, sel?: readonly Selection[]) {
+  e?.edit(edit => {
+    for (const s of sel ?? []) {
+      const txt = d?.getText(new Range(s.start, s.end))
+      edit.replace(s, encodeURIComponent(txt ?? ''))
+    }
+  })
+}
+
+function uriDecodeComponent(e?: TextEditor, d?: TextDocument, sel?: readonly Selection[]) {
+  e?.edit(edit => {
+    for (const s of sel ?? []) {
+      const txt = d?.getText(new Range(s.start, s.end))
+      edit.replace(s, decodeURIComponent(txt ?? ''))
+    }
+  })
 }
 
 function base64Encode(e?: TextEditor, d?: TextDocument, sel?: readonly Selection[]) {

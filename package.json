@@ -31,6 +31,14 @@
       {
         "command": "utils.base64Decode",
         "title": "Decode from Base64"
+      },
+      {
+        "command": "utils.encodeURIComponent",
+        "title": "Encode URI Component"
+      },
+      {
+        "command": "utils.decodeURIComponent",
+        "title": "Decode URI Component"
       }
     ],
     "keybindings": [
