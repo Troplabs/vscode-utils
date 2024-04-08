@@ -18,8 +18,8 @@ devDependencies:
     specifier: 1.87.0
     version: 1.87.0
   '@vscode/test-cli':
-    specifier: 0.0.8
-    version: 0.0.8
+    specifier: 0.0.9
+    version: 0.0.9
   '@vscode/test-electron':
     specifier: 2.3.9
     version: 2.3.9
@@ -397,8 +397,9 @@ packages:
     resolution: {integrity: sha512-y3yYJV2esWr8LNjp3VNbSMWG7Y43jC8pCldG8YwiHGAQbsymkkMMt0aDT1xZIOFM2eFcNiUc+dJMx1+Z0UT8fg==}
     dev: true
 
-  /@vscode/test-cli@0.0.8:
-    resolution: {integrity: sha512-sBSMSDzJChiiDjmys2Q6uI4SIoUYf0t6oDsQO3ypaQ7udha9YD4e2On9e9VE5OBayZMpxbgJX+NudmCwJMdOIg==}
+  /@vscode/test-cli@0.0.9:
+    resolution: {integrity: sha512-vsl5/ueE3Jf0f6XzB0ECHHMsd5A0Yu6StElb8a+XsubZW7kHNAOw4Y3TSSuDzKEpLnJ92nbMy1Zl+KLGCE6NaA==}
+    engines: {node: '>=18'}
     hasBin: true
     dependencies:
       '@types/mocha': 10.0.6
