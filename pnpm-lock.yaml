@@ -21,8 +21,8 @@ importers:
         specifier: 1.90.0
         version: 1.90.0
       '@vscode/test-cli':
-        specifier: 0.0.9
-        version: 0.0.9
+        specifier: 0.0.10
+        version: 0.0.10
       '@vscode/test-electron':
         specifier: 2.4.0
         version: 2.4.0
@@ -314,8 +314,8 @@ packages:
   '@types/vscode@1.90.0':
     resolution: {integrity: sha512-oT+ZJL7qHS9Z8bs0+WKf/kQ27qWYR3trsXpq46YDjFqBsMLG4ygGGjPaJ2tyrH0wJzjOEmDyg9PDJBBhWg9pkQ==}
 
-  '@vscode/test-cli@0.0.9':
-    resolution: {integrity: sha512-vsl5/ueE3Jf0f6XzB0ECHHMsd5A0Yu6StElb8a+XsubZW7kHNAOw4Y3TSSuDzKEpLnJ92nbMy1Zl+KLGCE6NaA==}
+  '@vscode/test-cli@0.0.10':
+    resolution: {integrity: sha512-B0mMH4ia+MOOtwNiLi79XhA+MLmUItIC8FckEuKrVAVriIuSWjt7vv4+bF8qVFiNFe4QRfzPaIZk39FZGWEwHA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1622,7 +1622,7 @@ snapshots:
 
   '@types/vscode@1.90.0': {}
 
-  '@vscode/test-cli@0.0.9':
+  '@vscode/test-cli@0.0.10':
     dependencies:
       '@types/mocha': 10.0.6
       c8: 9.1.0
