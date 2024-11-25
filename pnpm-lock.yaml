@@ -12,8 +12,8 @@ importers:
         specifier: 1.9.3
         version: 1.9.3
       '@types/mocha':
-        specifier: 10.0.8
-        version: 10.0.8
+        specifier: 10.0.10
+        version: 10.0.10
       '@types/node':
         specifier: 20.16.10
         version: 20.16.10
@@ -311,8 +311,8 @@ packages:
   '@types/istanbul-lib-coverage@2.0.6':
     resolution: {integrity: sha512-2QF/t/auWm0lsy8XtKVPG19v3sSOQlJe/YHZgfjb/KBBHOGSV+J2q/S671rcq9uTBrLAXmZpqJiaQbMT+zNU1w==}
 
-  '@types/mocha@10.0.8':
-    resolution: {integrity: sha512-HfMcUmy9hTMJh66VNcmeC9iVErIZJli2bszuXc6julh5YGuRb/W5OnkHjwLNYdFlMis0sY3If5SEAp+PktdJjw==}
+  '@types/mocha@10.0.10':
+    resolution: {integrity: sha512-xPyYSz1cMPnJQhl0CLMH68j3gprKZaTjG3s5Vi+fDgx+uhG9NOXwbVt52eFS8ECyXhyKcjDLCBEqBExKuiZb7Q==}
 
   '@types/node@20.16.10':
     resolution: {integrity: sha512-vQUKgWTjEIRFCvK6CyriPH3MZYiYlNy0fKiEYHWbcoWLEgs4opurGGKlebrTLqdSMIbXImH6XExNiIyNUv3WpA==}
@@ -1655,7 +1655,7 @@ snapshots:
 
   '@types/istanbul-lib-coverage@2.0.6': {}
 
-  '@types/mocha@10.0.8': {}
+  '@types/mocha@10.0.10': {}
 
   '@types/node@20.16.10':
     dependencies:
@@ -1665,7 +1665,7 @@ snapshots:
 
   '@vscode/test-cli@0.0.10':
     dependencies:
-      '@types/mocha': 10.0.8
+      '@types/mocha': 10.0.10
       c8: 9.1.0
       chokidar: 3.6.0
       enhanced-resolve: 5.17.1
