@@ -18,8 +18,8 @@ importers:
         specifier: 20.17.14
         version: 20.17.14
       '@types/vscode':
-        specifier: 1.96.0
-        version: 1.96.0
+        specifier: 1.99.0
+        version: 1.99.0
       '@vscode/dts':
         specifier: 0.4.1
         version: 0.4.1
@@ -328,8 +328,8 @@ packages:
   '@types/node@20.17.14':
     resolution: {integrity: sha512-w6qdYetNL5KRBiSClK/KWai+2IMEJuAj+EujKCumalFOwXtvOXaEan9AuwcRID2IcOIAWSIfR495hBtgKlx2zg==}
 
-  '@types/vscode@1.96.0':
-    resolution: {integrity: sha512-qvZbSZo+K4ZYmmDuaodMbAa67Pl6VDQzLKFka6rq+3WUTY4Kro7Bwoi0CuZLO/wema0ygcmpwow7zZfPJTs5jg==}
+  '@types/vscode@1.99.0':
+    resolution: {integrity: sha512-30sjmas1hQ0gVbX68LAWlm/YYlEqUErunPJJKLpEl+xhK0mKn+jyzlCOpsdTwfkZfPy4U6CDkmygBLC3AB8W9Q==}
 
   '@vscode/dts@0.4.1':
     resolution: {integrity: sha512-o8cI5Vqt6S6Y5mCI7yCkSQdiLQaLG5DMUpciJV3zReZwE+dA5KERxSVX8H3cPEhyKw21XwKGmIrg6YmN6M5uZA==}
@@ -2072,7 +2072,7 @@ snapshots:
     dependencies:
       undici-types: 6.19.8
 
-  '@types/vscode@1.96.0': {}
+  '@types/vscode@1.99.0': {}
 
   '@vscode/dts@0.4.1':
     dependencies:
